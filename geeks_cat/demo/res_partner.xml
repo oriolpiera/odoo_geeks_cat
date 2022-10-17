@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2022 Oriol Piera
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+
+<odoo noupdate="1">
+
+    <record model="res.partner" id="base.res_partner_1">
+       <field name="member_code">1</field>
+    </record>
+
+</odoo>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright 2022 Oriol Piera
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+
+<odoo>
+
+    <record model="ir.ui.view" id="res_partner_form_view">
+        <field name="name">res.partner.form (in geeks_cat)</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <field name="type" position="after">
+                <field name="member_code" string="Member code"/>
+            </field>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="res_partner_search_view">
+        <field name="name">res.partner.search (in geeks_cat)</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_res_partner_filter"/>
+        <field name="arch" type="xml">
+            <field name="name" position="after">
+                <field name="member_code" />
+            </field>
+        </field>
+    </record>
+
+    <record model="ir.ui.view" id="res_partner_tree_view">
+        <field name="name">res.partner.tree (in geeks_cat)</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_tree"/>
+        <field name="arch" type="xml">
+            <field name="display_name" position="after">
+                <field name="member_code" string="Member code"/>
+            </field>
+        </field>
+    </record>
+
+</odoo>
