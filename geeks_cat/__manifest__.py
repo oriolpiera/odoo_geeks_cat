@@ -5,7 +5,7 @@
     'name': 'Geeks Cat',
     'description': """
         Geeks.cat customizations""",
-    'version': '13.0.0.0.6',
+    'version': '13.0.0.0.7',
     'license': 'AGPL-3',
     'author': 'Oriol Piera',
     'website': 'https://oriolpiera.github.io/',

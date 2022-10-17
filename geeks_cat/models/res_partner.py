@@ -9,3 +9,8 @@ class ResPartner(models.Model):
     _inherit = "res.partner"
 
     member_code = fields.Integer(string="Member code", unique=True)
+
+    member_type = fields.Selection([
+        ('silver', 'Silver'),
+        ('gold', 'Gold'),
+    ], string='Member type')
