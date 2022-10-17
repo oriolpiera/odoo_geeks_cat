@@ -14,6 +14,8 @@
     ],
     'data': [
         'views/res_partner.xml',
+        'wizard/wizard_assign_number_to_member_views.xml',
+        'data/geeks_cat_data.xml',
     ],
     'demo': [
         'demo/res_partner.xml',
