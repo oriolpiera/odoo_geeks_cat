@@ -10,7 +10,7 @@
         <field name="inherit_id" ref="base.view_partner_form"/>
         <field name="arch" type="xml">
             <field name="type" position="after">
-                <field name="member_code" string="Member code"/>
+                <field name="member_code" string="Member code" readonly="1" />
             </field>
         </field>
     </record>
